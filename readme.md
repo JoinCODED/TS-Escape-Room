@@ -28,6 +28,23 @@ You have entered the **Fortress of Type Errors**, an ancient place filled with *
 
 ---
 
+## 🚀 **Rules & Instructions**
+- You will receive **five TypeScript files**, each containing a bug.
+- Your goal is to **identify and fix** the errors in each file.
+- No external references are allowed—work with your team’s knowledge!
+- Once you fix a stage, test your code to ensure it runs correctly.
+- Raise your hand (or submit proof) when you've successfully completed all five challenges.
+- **The first team to finish escapes and wins!**
+
+---
+
+## 🏆 **Are You Ready to Escape?**
+- Work **together** and debug **efficiently**.
+- Ask for **hints** if needed.
+- **Good luck!** 💻🕵️‍♂️
+
+---
+
 ## 🔥 **Bonus: Chaos Mode (Extra Challenges!)**
 If you finished too fast and want a challenge, here are **Chaos Mode challenges** for each stage:
 
@@ -45,20 +62,3 @@ If you finished too fast and want a challenge, here are **Chaos Mode challenges*
 
 ### **🏆 Stage 5: The Type Guardian’s Riddle - CHAOS MODE** 🔥
 - 🏰 **Extra Challenge:** The Guardian must now support **multiple types of guardians** (Fire, Ice, Thunder), requiring **a subclass for each and a factory function to create them dynamically**.
-
----
-
-## 🚀 **Rules & Instructions**
-- You will receive **five TypeScript files**, each containing a bug.
-- Your goal is to **identify and fix** the errors in each file.
-- No external references are allowed—work with your team’s knowledge!
-- Once you fix a stage, test your code to ensure it runs correctly.
-- Raise your hand (or submit proof) when you've successfully completed all five challenges.
-- **The first team to finish escapes and wins!**
-
----
-
-## 🏆 **Are You Ready to Escape?**
-- Work **together** and debug **efficiently**.
-- Ask for **hints** if needed.
-- **Good luck!** 💻🕵️‍♂️
