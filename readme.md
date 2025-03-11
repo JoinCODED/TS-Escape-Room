@@ -46,19 +46,24 @@ You have entered the **Fortress of Type Errors**, an ancient place filled with *
 ---
 
 ## 🔥 **Bonus: Chaos Mode (Extra Challenges!)**
-If you finished too fast and want a challenge, here are **Chaos Mode challenges** for each stage:
+For teams moving too fast, throw in an additional **Chaos Mode challenge** for each stage:
 
 ### **🚪 Stage 1: The Locked Gate - CHAOS MODE** 🔥
 - 🔀 **Extra Challenge:** The gate code must now be dynamically generated and validated **without hardcoding values**.
+- 💡 **Hint:** Use a **random number generator** and ensure the code is checked dynamically.
 
 ### **🛠️ Stage 2: The Missing Blueprint - CHAOS MODE** 🔥
 - 📜 **Extra Challenge:** The blueprint must support **multiple variations** (e.g., different materials), requiring **a union type or a generic interface**.
+- 💡 **Hint:** Use **TypeScript generics or unions** to allow flexibility in the blueprint types.
 
 ### **📦 Stage 3: The Cursed Inventory - CHAOS MODE** 🔥
 - 🏷️ **Extra Challenge:** The inventory should allow adding new items, but items should have **unique IDs** and be **stored in an object instead of an array**.
+- 💡 **Hint:** Use **a dictionary-like object (`Record<string, T>`) and assign unique IDs** to items.
 
 ### **🔄 Stage 4: The Temporal Rift - CHAOS MODE** 🔥
 - ⏳ **Extra Challenge:** The rift must now **execute a callback function** after a delay **without using setTimeout**.
+- 💡 **Hint:** Use a **manual delay mechanism** like a while-loop that tracks elapsed time.
 
 ### **🏆 Stage 5: The Type Guardian’s Riddle - CHAOS MODE** 🔥
 - 🏰 **Extra Challenge:** The Guardian must now support **multiple types of guardians** (Fire, Ice, Thunder), requiring **a subclass for each and a factory function to create them dynamically**.
+- 💡 **Hint:** Use **a factory function to instantiate different subclass variations dynamically**.
