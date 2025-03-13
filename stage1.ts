@@ -4,7 +4,8 @@
  */
 
 function unlockGate(code: number) {
-    if (code === "1234") {  // ❌ Type mismatch: string used instead of number
+    let gateCode = Math.random();
+    if (code === gateCode) {  // ❌ Type mismatch: string used instead of number
         console.log("Gate Unlocked!");
     } else {
         console.log("Access Denied!");

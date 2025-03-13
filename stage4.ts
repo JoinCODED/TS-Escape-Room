@@ -3,11 +3,17 @@
  * Resolve asynchronous code issues to stabilize time.
  */
 
-function fixRift() {
-    setTimeout(() => {
-        return "Rift Stabilized!";
-    }, 2000);
+async function fixRift() {
+    return new Promise((resolve) => {
+            setTimeout(() => {
+            resolve("Rift Stabilized!");
+        }, 2000);
+    });
 }
 
-const result = fixRift();
-console.log(result); // ❌ Problem: This will log `undefined`
+async function fetchValue() {
+    const result = await fixRift()
+    console.log(result);
+}
+  // ❌ Problem: This will log `undefined`
+fetchValue();
