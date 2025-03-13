@@ -3,10 +3,10 @@
  * Resolve asynchronous code issues to stabilize time.
  */
 
-function fixRift() {
-    setTimeout(() => {
-        return "Rift Stabilized!";
-    }, 2000);
+async function fixRift() {
+  setTimeout(() => {
+    return "Rift Stabilized!";
+  }, 2000);
 }
 
 const result = fixRift();
