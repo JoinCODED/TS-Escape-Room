@@ -2,12 +2,17 @@
  * 🔄 Stage 4: The Temporal Rift
  * Resolve asynchronous code issues to stabilize time.
  */
-
-function fixRift() {
-    setTimeout(() => {
-        return "Rift Stabilized!";
-    }, 2000);
+function timeOut(ms: number) {
+  return new Promise((resolve) => setTimeout(resolve, ms));
+}
+async function fixRift() {
+  await timeOut(2000);
+  return "Temporal Rift Stabilized!";
 }
 
-const result = fixRift();
-console.log(result); // ❌ Problem: This will log `undefined`
+async function topLevelAwait() {
+  const result = await fixRift();
+  console.log(result);
+}
+
+topLevelAwait();
