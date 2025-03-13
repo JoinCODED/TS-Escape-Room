@@ -4,7 +4,12 @@
  * Fix missing types and interfaces to restore the plans.
  */
 
-function createBlueprint(blueprint) {  // ❌ No type specified
+interface Blueprint {
+    name: string;
+    materials: any[]
+}
+
+function createBlueprint(blueprint: Blueprint) {  // ❌ No type specified
     console.log(`Blueprint for ${blueprint.name} is ready!`);
 }
 

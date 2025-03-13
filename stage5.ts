@@ -20,4 +20,4 @@ class FireGuardian extends Guardian {
 }
 
 const boss = new FireGuardian("Inferno");
-console.log(`Type: ${boss.guardianType}`); // ❌ Error: Static properties cannot be accessed from instances
+console.log(`Type: ${FireGuardian.guardianType}`); // ❌ Error: Static properties cannot be accessed from instances
